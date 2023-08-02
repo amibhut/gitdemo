@@ -118,6 +118,7 @@
         "paragraph": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida finibus velit in consectetur. Curabitur ut vehicula mauris. Pellentesque bibendum sapien in augue tempor euismod. Sed vestibulum ullamcorper tortor.<\/p>",
         "heading": "What different from others",
         "first_image": "shopify:\/\/shop_images\/India.png",
+        "contain_aligment": "left",
         "layout": "image_first"
       }
     }
