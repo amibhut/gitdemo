@@ -11,6 +11,9 @@
     margin: 0 auto;
     padding:30px;
 }
+.image-with-text__grid.grid.grid--gapless.grid--1-col.grid-- {
+    flex-direction: row-reverse;
+}
 
 
 
