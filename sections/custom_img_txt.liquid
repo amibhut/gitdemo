@@ -1,7 +1,7 @@
  <div class="image-with-text__grid grid grid--gapless grid--1-col grid focus-inset{{ section.settings.contain_aligment }}
- {% if block.settings.logo_aligment.current %}aria-current="page" class="active" {% endif %}" 
-        style="text-align:{{section.settings.contain_aligment}}">
-<div class="heading-pregraph">
+       {% if block.settings.logo_aligment.current %}aria-current="page" class="active" {% endif %}" 
+            style="text-align:{{section.settings.contain_aligment}}">
+    <div class="heading-pregraph">
           <h1>{{ section.settings.heading }}</h1>
               <div class="paragraph">
                    {% if section.settings.paragraph  != blank %}{{ section.settings.paragraph }}{% endif %}
@@ -13,7 +13,7 @@
                 {% endif %}
           </div>
 </div>
-</div>
+
 
 {% schema %}
   {
