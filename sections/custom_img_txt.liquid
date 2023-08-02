@@ -33,7 +33,26 @@
         "type":"image_picker",
          "label":"Your Image"
     },
- 
+    {
+        "type": "radio",
+         "id": "contain_aligment",
+        "label": "Contain alignment",
+        "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "right",
+          "label": "right"
+        }
+        ],
+           "default": "right"
+         },
+      {
+        "type": "header",
+        "content": "Padding"
+      },
        {
       "type": "select",
       "id": "layout",
