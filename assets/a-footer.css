@@ -1,0 +1,141 @@
+/*footer.footer{ display: none;}  */
+/* footer css  *//*
+.footer__content-top.page-width {
+    max-width: 1560px !important;
+    padding: 0 30px !important;
+    margin: 0 auto !important;
+}*/
+
+
+h2.footer-block__heading {
+    font-size: 24px;
+    line-height: 31px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-family: 'RedHatDisplay-Regular';
+}
+a.link.link--text.list-menu__item.list-menu__item--link.list-menu__item--active {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 29px;
+    color: #bfbfbf;
+    padding: 0 0 10px;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: 'RedHatDisplay-Regular';
+}
+a.link.list-social__link {
+    background: #000000;
+    width: 51px;
+    height: 51px;
+    justify-content: center;
+    margin-right: 15px;
+}
+.footer__content-top {padding-bottom: 40px !important;}
+.footer__copyright { margin-top: 0 !important;}
+small.copyright__content {
+    font-size: 16px;
+    line-height: 21px;
+    color: #bfbfbf;
+}
+/*******/
+
+
+.content-container--full-width:after {
+    border-bottom: 1px solid #797979;
+}
+.footer__content-bottom {
+    background-color: #040404;
+    padding-bottom: 34px;
+}
+.footer-top {
+    display: flex;
+    align-items: center;
+}
+button#Subscribe {
+    font-family: 'RedHatDisplay-Regular';
+    width: 150px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 32px;
+    gap: 10px;
+    color: #000000;
+    font-weight: 700;
+   font-size: 18px;
+   line-height: 29px;
+}
+form#contact_form {
+    max-width: 635px;
+    margin: 0;
+}
+.footer_newsletter {
+    display: flex;
+    flex-basis: 36.5%;
+    justify-content: flex-end;
+}
+h2.footer_newsletter {
+    font-size: 32px;
+    line-height: 47px;
+    padding-right: 20px;
+   font-family: 'RedHatDisplay-Regular';
+}
+.footer-top {
+    max-width: 1560px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+label.field__label {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 29px;
+    top: 15px;
+}
+input#NewsletterForm--sections--18214535069981__8fc2d9a7-58ae-49f6-a679-c1926f7b1342 {
+    padding-right: 0;
+    background: rgba(0,0,0,.3);
+    height: 57px;
+}
+.newsletter__wrapper.color-accent-1.gradient.content-container.isolate.content-container--full-width.section-sections--18214535069981__8fc2d9a7-58ae-49f6-a679-c1926f7b1342-padding {
+    padding: 68px 0;
+}
+/*****responsive*****/
+ @media (max-width: 1199px){
+h2.footer_newsletter {line-height: 40px;padding-right: 10px;}
+input#NewsletterForm--sections--18214535069981__8fc2d9a7-58ae-49f6-a679-c1926f7b1342 { height: 40px;}
+label.field__label {font-size: 16px;top: 5px;}
+button#Subscribe {width: 100px;  font-size: 16px;}
+}
+ @media (max-width: 1299px){
+ li.list-social__item {padding-bottom: 10px;}
+.newsletter__wrapper.color-accent-1.gradient.content-container.isolate.content-container--full-width.section-sections--18214535069981__8fc2d9a7-58ae-49f6-a679-c1926f7b1342-padding {
+padding: 50px 0;}
+ }
+ @media (max-width: 991px){
+.footer-top { display: block;text-align: center;}
+.newsletter__image {max-width: 100%; padding-bottom: 20px;}
+h2.footer_newsletter { max-width: 100%; justify-content: center;margin: 0;}
+form#contact_form { margin-top: 10px;}  
+button#Subscribe {width: 150px;  font-size: 18px;}
+input#NewsletterForm--sections--18214535069981__8fc2d9a7-58ae-49f6-a679-c1926f7b1342 { height: 57px;}
+label.field__label {font-size: 18px;top: 15px;}
+.footer_newsletter {max-width: 100%;justify-content: center;}
+.footer__blocks-wrapper .footer-block:last-child {width: 100%;}
+ }
+ @media (max-width: 767px){
+.footer-block.grid__item.footer-block--menu {
+ width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2); margin: 0;}
+.footer .grid {display: flex !important;}
+.footer__blocks-wrapper .footer-block:last-child {   width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2); margin: 0;}
+a.link.list-social__link { margin-right: 5px;}
+}
+ @media (max-width: 567px){
+.footer .grid {display: block !important;}
+.footer__blocks-wrapper .footer-block:last-child {width: 100%;}
+.footer-block__brand-info .footer__list-social.list-social { margin-left: -0.3rem !important;}
+input#NewsletterForm--sections--18214535069981__8fc2d9a7-58ae-49f6-a679-c1926f7b1342 { height: 40px;}
+label.field__label {font-size: 16px;top: 5px;}
+button#Subscribe {width: 100px;  font-size: 16px;}
+ }
