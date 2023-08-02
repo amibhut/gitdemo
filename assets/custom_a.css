@@ -14,5 +14,7 @@
 .image-with-text__grid.grid.grid--gapless.grid--1-col.grid.focus-insetright {
     flex-direction: row-reverse;
 }
-
+.image-with-text__grid.grid.grid--gapless.grid--1-col.grid.focus-insetleft {
+    flex-direction: row-reverse;
+}
 
