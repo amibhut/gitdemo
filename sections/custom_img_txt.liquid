@@ -2,7 +2,7 @@
 <div class="image-with-text__grid grid grid--gapless grid--1-col grid--{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}">
       <div class="heading-pregraph">
           <h1>{{ section.settings.heading }}</h1>
-              <div class="paragraph"style="text-align:{{block.settings.contain_aligment}} !important;">
+              <div class="paragraph">
                    {% if section.settings.paragraph  != blank %}{{ section.settings.paragraph }}{% endif %}
               </div>
       </div>
@@ -33,26 +33,6 @@
         "type":"image_picker",
          "label":"Your Image"
     },
-    {
-        "type": "radio",
-         "id": "contain_aligment",
-        "label": "Contain alignment",
-        "options": [
-        {
-          "value": "left",
-          "label": "Left"
-        },
-        {
-          "value": "right",
-          "label": "right"
-        }
-        ],
-           "default": "right"
-         },
-      {
-        "type": "header",
-        "content": "Padding"
-      },
        {
       "type": "select",
       "id": "layout",
