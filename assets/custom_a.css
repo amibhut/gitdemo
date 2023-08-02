@@ -11,6 +11,8 @@
     margin: 0 auto;
     padding:30px;
 }
-.img1{text-align:{{section.settings.contain_aligment}}; }
+.img1{
+  text-align:{{section.settings.contain_aligment}}; 
+}
 
 
