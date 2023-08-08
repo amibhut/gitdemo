@@ -32,6 +32,8 @@
     <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
+	<script src="{{ 'slick.js' | asset_url }}" defer="defer"></script>	
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
     {{ content_for_header }}
 
     {%- liquid
@@ -222,6 +224,8 @@
     {{ 'a-header.css' | asset_url | stylesheet_tag }}
     {{ 'a-footer.css' | asset_url | stylesheet_tag }}
     {{ 'custom_a.css' | asset_url | stylesheet_tag }}
+	{{ 'slick.css' | asset_url | stylesheet_tag }}
+    {{ 'slick-theme.css' | asset_url | stylesheet_tag }}
 
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
